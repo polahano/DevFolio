@@ -1,0 +1,203 @@
+/* 
+
+Shared
+
+*/
+
+hr.underline {
+  width: 80px;
+  height: 4px;
+  border: none;
+  opacity: 1;
+  background-color: #0d6efd;
+  color: #0d6efd;
+}
+
+/* 
+
+Home
+
+*/
+
+.home-section .image {
+  background-image: url("../assets/images/hero-bg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: rgba(0, 0, 0, 0.508);
+  background-blend-mode: color-burn;
+  background-position: center center;
+}
+
+.home-section .image h2 {
+  font-size: 3rem !important;
+}
+
+@keyframes title-animation1 {
+  0% {
+    width: 0px;
+  }
+  25% {
+    width: 5rem;
+  }
+  50% {
+    width: 0px;
+  }
+  100% {
+    width: 0px;
+    border: 0px;
+  }
+}
+
+@keyframes title-animation2 {
+  0% {
+    width: 0px;
+    border: 0px;
+  }
+  50% {
+    width: 0px;
+  }
+  75% {
+    width: 5rem;
+  }
+  100% {
+    width: 0px;
+  }
+}
+
+.home-section .animated-title .animated-word1 {
+  border-right: #fff 8px solid;
+  font-size: 1rem;
+  width: 0px;
+  overflow: hidden;
+  display: inline-block;
+  animation-name: title-animation1;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+.home-section .animated-title .animated-word2 {
+  border-right: #fff 8px solid;
+  font-size: 1rem;
+  width: 0px;
+  overflow: hidden;
+  display: inline-block;
+  animation-name: title-animation2;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+.about-section {
+  background-color: #f5f5f5;
+}
+
+.services-section {
+  background-color: #f5f5f5;
+}
+
+.services-section .circle {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border: solid 10px #0d6efd;
+  transition: all 0.6s;
+  -webkit-transition: all 0.6s;
+  -moz-transition: all 0.6s;
+  -ms-transition: all 0.6s;
+  -o-transition: all 0.6s;
+}
+
+.services-section .card:hover .circle {
+  border: solid 10px #75acff;
+  background-color: #0d6efd;
+}
+
+.numbers-section .image {
+  background-image: url("../assets/images/counters-bg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  height: fit-content;
+}
+
+.numbers-section .circle {
+  width: 100px;
+  height: 100px;
+  border: solid 10px white;
+}
+
+.numbers-section .circle i {
+  color: white;
+}
+
+.portfolio-section .card .card-img-top {
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+
+.portfolio-section .card:hover .card-img-top {
+  transform: scale(1.25);
+  -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  -ms-transform: scale(1.25);
+  -o-transform: scale(1.25);
+}
+
+.testimonial-section .blue-layer {
+  padding-block: 150px;
+}
+
+.testimonial-section .image {
+  background-image: url("../assets/images/overlay-bg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  height: fit-content;
+}
+
+.testimonial-section .carousel-indicators button[data-bs-target] {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.contact-section .circle {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border: solid 5px #0d6efd;
+  transition: all 0.6s;
+  -webkit-transition: all 0.6s;
+  -moz-transition: all 0.6s;
+  -ms-transition: all 0.6s;
+  -o-transition: all 0.6s;
+}
+
+.contact-section li:hover .circle {
+  border: solid 5px #75acff;
+  background-color: #0d6efd;
+}
+
+.contact-section li .circle i {
+  color: black;
+}
+.contact-section li:hover .circle i {
+  color: white;
+}
+
+.contact-section .image {
+  background-image: url("../assets/images/overlay-bg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  height: fit-content;
+}
+
+/* 
+
+test
+
+*/
