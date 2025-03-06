@@ -19,6 +19,15 @@ Home
 
 */
 
+.floating-button {
+  bottom: 10px;
+  right: 10px;
+  height: 60px;
+  width: 60px;
+  background-color: #0d6efd;
+  text-align: center;
+}
+
 .home-section .image {
   background-image: url("../assets/images/hero-bg.jpg");
   background-size: cover;
